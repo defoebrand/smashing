@@ -1,12 +1,13 @@
 # Project Name
+Smashing Heatmap
 
- and Brandon's Smashing magazine heatmap project
+This is Mohap and Brandon's Smashing magazine heatmap project
 
 ![screenshot](images/screenshot.png)
 
 Additional description about the project and its features.
 
-This project was the first project compiled by Brandon and "" in the Microverse HTML/CSS section of the course work. It involved recreating a Smashing magazine page.
+This project was the first project compiled by Brandon and Mohap in the Microverse HTML/CSS section of the course work. It involved recreating a Smashing magazine page.
 
 ## Built With
 
@@ -34,7 +35,10 @@ To get your own copy of our project clone the repository to your local machine.
 - Github: [@defoebrand](https://github.com/defoebrand)
 - Gmail: defoe.brand@gmail.com
 
+👤 **Mohap Akram**
 
+- Github: [@mohapakram](https://github.com/mohapakram)
+- Gmail: mohapmobile@gmail.com
 
 
 ## 🤝 Contributing
