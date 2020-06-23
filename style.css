@@ -2,9 +2,35 @@
   box-sizing: border-box;
 }
 
+:root {
+  --grey-1: #696969;
+  --grey-2: #808080;
+  --grey-3: #a9a9a9;
+}
+
+.gray-1 {
+  background-color: var(--grey-1);
+}
+
+.gray-2 {
+  background-color: var(--grey-2);
+}
+
+.gray-3 {
+  background-color: var(--grey-3);
+}
+
+body {
+  font-family: "MijaW03-Regular";
+  font-size: 20px;
+}
+
+p {
+  font-family: "Spinnaker", sans-serif;
+}
+
 header {
   position: relative;
-  background: red;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -19,7 +45,7 @@ header * {
 }
 
 .featured-links {
-  background: pink;
+  /* background: pink; */
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -29,16 +55,18 @@ header * {
   position: absolute;
   background: white;
   z-index: 2;
-  margin: 25px 45%;
+  margin: 25px 35%;
   text-align: center;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .featured-links article {
-  width: 50%;
-  height: 600px;
-  background: darkred;
+  width: 33%;
+  height: 90vh;
   color: #fff;
   position: relative;
+  justify-content: center;
   font-weight: 700;
   padding: 10em 5vw 7em;
   display: flex;
@@ -46,9 +74,15 @@ header * {
   border: 1px solid black;
 }
 
+.featured-links a {
+  font-size: 3em;
+  color: white;
+  text-decoration: none;
+}
+
 .beige {
-  background: beige;
-  width: 94vw;
+  /* background: beige; */
+  /* width: 94vw; */
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -56,19 +90,27 @@ header * {
 }
 
 .beige div {
-  width: 400px;
+  width: 25%;
   height: 575px;
   border: 1px solid black;
+  padding: 10px;
+}
+
+.beige h2 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.beige p {
+  font-weight: lighter;
 }
 
 #red-box {
-  background: red;
   width: 775px;
   height: 650px;
 }
 
 #red-box-2 {
-  background: red;
   width: 1175px;
   height: 625px;
 }
