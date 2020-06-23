@@ -121,7 +121,6 @@ header * {
 }
 
 .blue {
-  background: blue;
   width: 100%;
   height: 1000px;
 }
@@ -152,33 +151,27 @@ header * {
 }
 
 .red {
-  background: red;
   width: 100%;
   height: 300px;
 }
 
 .beige2 {
-  background: beige;
   margin: 0 auto;
-  width: 75%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 450px 800px;
+  position: relative;
+  width: 90%;
 }
 
 .beige2 div {
-  grid-column: span 2;
-  border: 1px solid black;
-}
-
-#newsletter {
-  background: blue;
+  float: left;
+  width: 30%;
+  margin: 20px;
+  height: 400px;
 }
 
 #guide {
-  width: 250px;
-  grid-column: 2 / span 2;
-  height: 150px;
+  clear: left;
+  text-align: center;
+  width: 10%;
   margin: 0 auto;
 }
 
