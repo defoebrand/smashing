@@ -12,7 +12,7 @@ This project was the first project compiled by Brandon and "" in the Microverse 
 
 - HTML and CSS
 - VScode and Atom
-- Windows10 and Mac
+- Windows10
 - https://validator.w3.org was used to validate the HTML code in this project
 - Linters used include Lighthouse, Webhint, and Stylelint
 
