@@ -3,33 +3,144 @@
 }
 
 header {
+  position: relative;
   background: red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  padding: 1rem 2em;
+}
+
+header * {
+  border: 1px solid black;
+  width: 75px;
+  height: 25px;
 }
 
 .featured-links {
-  background: red;
+  background: pink;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured-links p {
+  position: absolute;
+  background: white;
+  z-index: 2;
+  margin: 25px 45%;
+  text-align: center;
+}
+
+.featured-links article {
+  width: 50%;
+  height: 600px;
+  background: darkred;
+  color: #fff;
+  position: relative;
+  font-weight: 700;
+  padding: 10em 5vw 7em;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
 }
 
 .beige {
   background: beige;
+  width: 94vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.beige div {
+  width: 400px;
+  height: 575px;
+  border: 1px solid black;
+}
+
+#red-box {
+  background: red;
+  width: 775px;
+  height: 650px;
+}
+
+#red-box-2 {
+  background: red;
+  width: 1175px;
+  height: 625px;
+}
+
+#load-more {
+  height: 150px;
+  margin: 0 auto;
 }
 
 .blue {
   background: blue;
+  width: 100%;
+  height: 1000px;
 }
 
 .white {
   background: white;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.white div {
+  width: 50%;
+  height: 575px;
+  border: 1px solid black;
+}
+
+#first {
+  width: 100%;
+  height: 325px;
+}
+
+#eighth {
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
 }
 
 .red {
   background: red;
+  width: 100%;
+  height: 300px;
 }
 
 .beige2 {
   background: beige;
+  margin: 0 auto;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 450px 800px;
 }
 
+.beige2 div {
+  grid-column: span 2;
+  border: 1px solid black;
+}
+
+#newsletter {
+  background: blue;
+}
+
+#guide {
+  width: 250px;
+  grid-column: 2 / span 2;
+  height: 150px;
+  margin: 0 auto;
+}
 footer {
   background: red;
+  width: 100%;
+  height: 650px;
 }
