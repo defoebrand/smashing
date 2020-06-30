@@ -1,0 +1,28 @@
+{
+  "name": "smashing",
+  "version": "1.0.0",
+  "description": "and Brandon's Smashing magazine heatmap project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defoebrand/smashing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defoebrand/smashing/issues"
+  },
+  "homepage": "https://github.com/defoebrand/smashing#readme",
+  "devDependencies": {
+    "hint": "^6.0.6",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "dependencies": {
+    "lighthouse": "^6.0.0"
+  }
+}
