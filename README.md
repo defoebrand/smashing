@@ -1,18 +1,18 @@
 # Project Name
 Smashing Heatmap
 
-This is Mohap and Brandon's Smashing magazine heatmap project
+This is Brandon's Smashing magazine heatmap project
 
 ![screenshot](images/screenshot.png)
 
 Additional description about the project and its features.
 
-This project was the first project compiled by Brandon and Mohap in the Microverse HTML/CSS section of the course work. It involved recreating a Smashing magazine page.
+This project was compiled by Brandon in the Microverse HTML/CSS section of the course work. It involved recreating a Smashing magazine page.
 
 ## Built With
 
 - HTML and CSS
-- VScode and Atom
+- Atom
 - Windows10
 - https://validator.w3.org was used to validate the HTML code in this project
 - Linters used include Lighthouse, Webhint, and Stylelint
@@ -20,7 +20,7 @@ This project was the first project compiled by Brandon and Mohap in the Microver
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/defoebrand/smashing/db44929c4e76ff6d35a969335413b42ae6164ae7/index.html)
 
 
 ## Getting Started
@@ -34,11 +34,6 @@ To get your own copy of our project clone the repository to your local machine.
 
 - Github: [@defoebrand](https://github.com/defoebrand)
 - Gmail: defoe.brand@gmail.com
-
-👤 **Mohap Akram**
-
-- Github: [@mohapakram](https://github.com/mohapakram)
-- Gmail: mohapmobile@gmail.com
 
 
 ## 🤝 Contributing
