@@ -20,7 +20,7 @@ This project was compiled by Brandon in the Microverse HTML/CSS section of the c
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/defoebrand/smashing/db44929c4e76ff6d35a969335413b42ae6164ae7/index.html)
+[Live Demo Link](https://rawcdn.githack.com/defoebrand/smashing/11de631fe1134f406ff051ed4160f4ed5d338869/index.html)
 
 
 ## Getting Started
